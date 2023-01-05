@@ -1,0 +1,20 @@
+ToDo Update:
+Move HandleUpdateFirearmStats and such to default static library.
+Move HandleCachingAttachment and such to default static library.
+
+ToDo:
+Add option to control how much MOA or MRAD each click does on your sight.
+Check dedicated server runs anim instance, if dedicated do nothing.
+Look into using the GizmoActor for the map editor gizmo.
+
+Bug fixes:
+Firearm collision sometimes snaps upon colliding again after a collision.
+
+Potential:
+Add notify for playing suppressed or unsuppressed shot?
+Add notify for performing niagara system from GetFireNiagaraSystem?
+Possibly setup dormancy for certain attachments for things that need no replication?
+
+Non RenderTarget Scopes;
+Setup mask to hide whats behind the lense and the radius of the lense beyond, toggle it on/off with aiming.
+Same with render target, disable render target and setup material for non render target use, then switch when enabling render target.

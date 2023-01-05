@@ -1,0 +1,111 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "7.0",
+	"FriendlyName": "UltimateFPSFramework",
+	"Description": "Ultimate Multiplayer FPS Framework",
+	"Category": "Ultimate First Person Shooter Framework",
+	"CreatedBy": "Sneaky Kitty Game Dev",
+	"CreatedByURL": "https://www.youtube.com/channel/UCYcDJPGvIUFxBTmXOZWFswQ",
+	"DocsURL": "https://www.youtube.com/playlist?list=PLnHeglBaPYu904gjIxkAfFI15gGI30IYt",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4986d4f5b73148deb154e1cd31dd9623",
+	"SupportURL": "https://discord.gg/W5g6pZXfjh",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UltimateFPSFramework",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "UltimateFPSEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGAnimGraph",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGProjectile",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGAttachment",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGMeshComponent",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGHoleComponent",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGSceneCapture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGCrosshair",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGMapEditor",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SKGGrenade",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
