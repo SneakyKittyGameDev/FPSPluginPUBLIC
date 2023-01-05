@@ -3,7 +3,7 @@
 
 # Ultimate Plugin
 Plugins/*
-Content/*
+.idea/
 
 # Compiled Object files
 *.slo
