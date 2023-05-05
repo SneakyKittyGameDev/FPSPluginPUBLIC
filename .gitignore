@@ -1,6 +1,11 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Ultimate Plugin
+Plugins/
+Content/zTesting/
+.idea/
+
 # Compiled Object files
 *.slo
 *.lo
